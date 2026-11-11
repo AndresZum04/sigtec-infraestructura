@@ -1,0 +1,100 @@
+name: sigtec
+
+x-postgis: &postgis
+  image: postgis/postgis:16-3.4
+  restart: unless-stopped
+  entrypoint: ["bash", "-c"]
+  command:
+    - |
+      mkdir -p /wal_archive /respaldos
+      chown -R postgres:postgres /wal_archive /respaldos
+      exec docker-entrypoint.sh postgres \
+        -c wal_level=logical \
+        -c max_wal_senders=20 \
+        -c max_replication_slots=20 \
+        -c max_worker_processes=24 \
+        -c max_logical_replication_workers=16 \
+        -c max_prepared_transactions=20 \
+        -c archive_mode=on \
+        -c "archive_command=test ! -f /wal_archive/%f && cp %p /wal_archive/%f" \
+        -c archive_timeout=60
+
+x-env: &env
+  POSTGRES_DB: sigtec
+  POSTGRES_USER: postgres
+  POSTGRES_PASSWORD: sigtec2026
+
+services:
+  central:
+    <<: *postgis
+    container_name: sigtec-central
+    environment: { <<: *env, CAMPUS_ID: "0", ROL_NODO: central }
+    ports: ["5440:5432"]
+    volumes:
+      - pg_central:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d:ro
+      - ./wal/central:/wal_archive
+      - ./respaldos/central:/respaldos
+
+  cartago:
+    <<: *postgis
+    container_name: sigtec-cartago
+    environment: { <<: *env, CAMPUS_ID: "1", ROL_NODO: campus }
+    ports: ["5441:5432"]
+    volumes:
+      - pg_cartago:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d:ro
+      - ./wal/cartago:/wal_archive
+      - ./respaldos/cartago:/respaldos
+
+  sanjose:
+    <<: *postgis
+    container_name: sigtec-sanjose
+    environment: { <<: *env, CAMPUS_ID: "2", ROL_NODO: campus }
+    ports: ["5442:5432"]
+    volumes:
+      - pg_sanjose:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d:ro
+      - ./wal/sanjose:/wal_archive
+      - ./respaldos/sanjose:/respaldos
+
+  sancarlos:
+    <<: *postgis
+    container_name: sigtec-sancarlos
+    environment: { <<: *env, CAMPUS_ID: "3", ROL_NODO: campus }
+    ports: ["5443:5432"]
+    volumes:
+      - pg_sancarlos:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d:ro
+      - ./wal/sancarlos:/wal_archive
+      - ./respaldos/sancarlos:/respaldos
+
+  alajuela:
+    <<: *postgis
+    container_name: sigtec-alajuela
+    environment: { <<: *env, CAMPUS_ID: "4", ROL_NODO: campus }
+    ports: ["5444:5432"]
+    volumes:
+      - pg_alajuela:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d:ro
+      - ./wal/alajuela:/wal_archive
+      - ./respaldos/alajuela:/respaldos
+
+  limon:
+    <<: *postgis
+    container_name: sigtec-limon
+    environment: { <<: *env, CAMPUS_ID: "5", ROL_NODO: campus }
+    ports: ["5445:5432"]
+    volumes:
+      - pg_limon:/var/lib/postgresql/data
+      - ./init:/docker-entrypoint-initdb.d:ro
+      - ./wal/limon:/wal_archive
+      - ./respaldos/limon:/respaldos
+
+volumes:
+  pg_central:
+  pg_cartago:
+  pg_sanjose:
+  pg_sancarlos:
+  pg_alajuela:
+  pg_limon:
