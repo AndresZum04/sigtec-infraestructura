@@ -1,0 +1,36 @@
+Contrato 1.0.0: 6/6 nodos, ocho vistas compatibles por nodo, geometrías e ids válidos.
+test_01_autenticacion_real_y_campus (__main__.IntegrationTests.test_01_autenticacion_real_y_campus) ... qt.qpa.fonts: Populating font family aliases took 93 ms. Replace uses of missing font family "Open Sans" with one that exists to avoid this cost. 
+ok
+test_02_configuracion_y_vistas_ausentes (__main__.IntegrationTests.test_02_configuracion_y_vistas_ausentes) ... ok
+test_03_capas_estilos_formularios_y_proyecto_sin_claves (__main__.IntegrationTests.test_03_capas_estilos_formularios_y_proyecto_sin_claves) ... ok
+test_04_crud_pyqgis_ocho_vistas_y_replicacion (__main__.IntegrationTests.test_04_crud_pyqgis_ocho_vistas_y_replicacion) ... ok
+test_05_prohibicion_escritura_ajena_y_cambio_identidad (__main__.IntegrationTests.test_05_prohibicion_escritura_ajena_y_cambio_identidad) ... ok
+test_06_geometria_invalida_rechazada (__main__.IntegrationTests.test_06_geometria_invalida_rechazada) ... ok
+test_07_sesion_conserva_ediciones_y_capas_ajenas (__main__.IntegrationTests.test_07_sesion_conserva_ediciones_y_capas_ajenas) ... ok
+test_08_interfaz_y_tarea_asincrona (__main__.IntegrationTests.test_08_interfaz_y_tarea_asincrona) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_09_estilos_identicos_y_solo_lectura (__main__.IntegrationTests.test_09_estilos_identicos_y_solo_lectura) ... ok
+test_10_central_no_expone_catalogo_usuarios (__main__.IntegrationTests.test_10_central_no_expone_catalogo_usuarios) ... ok
+test_11_usuario_inactivo_no_ingresa (__main__.IntegrationTests.test_11_usuario_inactivo_no_ingresa) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 12.490s
+
+OK
+central    campus=None tablas=40 vistas=8 estilos=8 objetos=358
+cartago    campus=1 tablas=40 vistas=8 estilos=8 objetos=358
+sanjose    campus=2 tablas=40 vistas=8 estilos=8 objetos=358
+sancarlos  campus=3 tablas=40 vistas=8 estilos=8 objetos=358
+alajuela   campus=4 tablas=40 vistas=8 estilos=8 objetos=358
+limon      campus=5 tablas=40 vistas=8 estilos=8 objetos=358
+Integración correcta: seis nodos, autenticación, vistas y estilos conectados.

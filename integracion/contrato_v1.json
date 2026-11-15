@@ -1,0 +1,410 @@
+{
+  "version": "1.0.0",
+  "sistema": "SIG-TEC",
+  "srid": 5367,
+  "base_de_datos": "sigtec",
+  "esquema_vistas": "sigtec_qgis",
+  "clave": "id",
+  "geometria": "geom",
+  "autenticacion": {
+    "protocolo": "roles_postgresql",
+    "funcion": "sigtec_auth.perfil_actual()",
+    "retorno": [
+      {
+        "nombre": "campus_id",
+        "tipo": "smallint"
+      },
+      {
+        "nombre": "nombre",
+        "tipo": "text"
+      },
+      {
+        "nombre": "esquema",
+        "tipo": "text"
+      }
+    ],
+    "identidad": "session_user",
+    "credenciales": "mismo usuario y contraseña en central y nodo propio"
+  },
+  "campus": [
+    {
+      "id": 1,
+      "nombre": "Cartago",
+      "esquema": "cartago",
+      "nodo": "cartago",
+      "puerto": 5441,
+      "id_min": 1000001,
+      "id_max": 1999999
+    },
+    {
+      "id": 2,
+      "nombre": "San José",
+      "esquema": "san_jose",
+      "nodo": "sanjose",
+      "puerto": 5442,
+      "id_min": 2000001,
+      "id_max": 2999999
+    },
+    {
+      "id": 3,
+      "nombre": "San Carlos",
+      "esquema": "san_carlos",
+      "nodo": "sancarlos",
+      "puerto": 5443,
+      "id_min": 3000001,
+      "id_max": 3999999
+    },
+    {
+      "id": 4,
+      "nombre": "Alajuela",
+      "esquema": "alajuela",
+      "nodo": "alajuela",
+      "puerto": 5444,
+      "id_min": 4000001,
+      "id_max": 4999999
+    },
+    {
+      "id": 5,
+      "nombre": "Limón",
+      "esquema": "limon",
+      "nodo": "limon",
+      "puerto": 5445,
+      "id_min": 5000001,
+      "id_max": 5999999
+    }
+  ],
+  "vistas": {
+    "edificios": {
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "bigint"
+        },
+        {
+          "nombre": "campus_id",
+          "tipo": "smallint"
+        },
+        {
+          "nombre": "creado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "modificado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "codigo",
+          "tipo": "character varying(20)"
+        },
+        {
+          "nombre": "nombre",
+          "tipo": "character varying(120)"
+        },
+        {
+          "nombre": "area_m2",
+          "tipo": "numeric(12,2)"
+        },
+        {
+          "nombre": "pisos",
+          "tipo": "smallint"
+        },
+        {
+          "nombre": "geom",
+          "tipo": "geometry(Polygon,5367)"
+        }
+      ],
+      "nombre_obligatorio": true
+    },
+    "carreteras": {
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "bigint"
+        },
+        {
+          "nombre": "campus_id",
+          "tipo": "smallint"
+        },
+        {
+          "nombre": "creado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "modificado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "nombre",
+          "tipo": "character varying(120)"
+        },
+        {
+          "nombre": "tipo",
+          "tipo": "character varying(40)"
+        },
+        {
+          "nombre": "superficie",
+          "tipo": "character varying(40)"
+        },
+        {
+          "nombre": "geom",
+          "tipo": "geometry(LineString,5367)"
+        }
+      ],
+      "nombre_obligatorio": false
+    },
+    "aceras": {
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "bigint"
+        },
+        {
+          "nombre": "campus_id",
+          "tipo": "smallint"
+        },
+        {
+          "nombre": "creado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "modificado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "material",
+          "tipo": "character varying(40)"
+        },
+        {
+          "nombre": "ancho_m",
+          "tipo": "numeric(5,2)"
+        },
+        {
+          "nombre": "condicion",
+          "tipo": "character varying(20)"
+        },
+        {
+          "nombre": "geom",
+          "tipo": "geometry(LineString,5367)"
+        }
+      ],
+      "nombre_obligatorio": false
+    },
+    "parqueos": {
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "bigint"
+        },
+        {
+          "nombre": "campus_id",
+          "tipo": "smallint"
+        },
+        {
+          "nombre": "creado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "modificado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "nombre",
+          "tipo": "character varying(120)"
+        },
+        {
+          "nombre": "capacidad",
+          "tipo": "integer"
+        },
+        {
+          "nombre": "tipo",
+          "tipo": "character varying(40)"
+        },
+        {
+          "nombre": "espacios_disponibles",
+          "tipo": "integer"
+        },
+        {
+          "nombre": "geom",
+          "tipo": "geometry(Polygon,5367)"
+        }
+      ],
+      "nombre_obligatorio": false
+    },
+    "zonas_verdes": {
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "bigint"
+        },
+        {
+          "nombre": "campus_id",
+          "tipo": "smallint"
+        },
+        {
+          "nombre": "creado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "modificado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "nombre",
+          "tipo": "character varying(120)"
+        },
+        {
+          "nombre": "area_m2",
+          "tipo": "numeric(12,2)"
+        },
+        {
+          "nombre": "tipo_vegetacion",
+          "tipo": "character varying(60)"
+        },
+        {
+          "nombre": "geom",
+          "tipo": "geometry(Polygon,5367)"
+        }
+      ],
+      "nombre_obligatorio": false
+    },
+    "puntos_interes": {
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "bigint"
+        },
+        {
+          "nombre": "campus_id",
+          "tipo": "smallint"
+        },
+        {
+          "nombre": "creado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "modificado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "nombre",
+          "tipo": "character varying(120)"
+        },
+        {
+          "nombre": "tipo",
+          "tipo": "character varying(40)"
+        },
+        {
+          "nombre": "descripcion",
+          "tipo": "text"
+        },
+        {
+          "nombre": "geom",
+          "tipo": "geometry(Point,5367)"
+        }
+      ],
+      "nombre_obligatorio": true
+    },
+    "iluminacion": {
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "bigint"
+        },
+        {
+          "nombre": "campus_id",
+          "tipo": "smallint"
+        },
+        {
+          "nombre": "creado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "modificado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "codigo",
+          "tipo": "character varying(20)"
+        },
+        {
+          "nombre": "potencia_w",
+          "tipo": "integer"
+        },
+        {
+          "nombre": "estado",
+          "tipo": "character varying(20)"
+        },
+        {
+          "nombre": "geom",
+          "tipo": "geometry(Point,5367)"
+        }
+      ],
+      "nombre_obligatorio": false
+    },
+    "accesibilidad": {
+      "columnas": [
+        {
+          "nombre": "id",
+          "tipo": "bigint"
+        },
+        {
+          "nombre": "campus_id",
+          "tipo": "smallint"
+        },
+        {
+          "nombre": "creado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "modificado_en",
+          "tipo": "timestamp with time zone"
+        },
+        {
+          "nombre": "tipo",
+          "tipo": "character varying(40)"
+        },
+        {
+          "nombre": "descripcion",
+          "tipo": "text"
+        },
+        {
+          "nombre": "geom",
+          "tipo": "geometry(LineString,5367)"
+        }
+      ],
+      "nombre_obligatorio": false
+    }
+  },
+  "campos_automaticos": [
+    "id",
+    "campus_id",
+    "creado_en",
+    "modificado_en",
+    "area_m2"
+  ],
+  "errores_sql": {
+    "42501": "operación no autorizada para el campus",
+    "23514": "geometría o valor que viola una restricción",
+    "23502": "atributo obligatorio ausente",
+    "23505": "identificador duplicado",
+    "40001": "objeto eliminado o cambiado durante la operación"
+  },
+  "estilos": {
+    "tabla": "public.layer_styles",
+    "clave": [
+      "f_table_catalog",
+      "f_table_schema",
+      "f_table_name",
+      "f_geometry_column"
+    ],
+    "formato": "QML",
+    "predeterminados_por_capa": 1,
+    "escritura": "administrador central",
+    "lectura": "usuarios de campus"
+  },
+  "limites": [
+    "Las transacciones distribuidas/2PC se integran fuera del complemento.",
+    "Las fuentes de datos no constituyen un inventario oficial.",
+    "El video integral se prepara posteriormente."
+  ]
+}

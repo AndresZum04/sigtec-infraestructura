@@ -1,0 +1,11 @@
+test_configuracion_coincide_con_el_contrato (test_fuentes.SourceTests.test_configuracion_coincide_con_el_contrato) ... ok
+test_estilos_xml_y_sin_codigo_de_formulario (test_fuentes.SourceTests.test_estilos_xml_y_sin_codigo_de_formulario) ... ok
+test_procedencia_de_infraestructura_y_datos (test_fuentes.SourceTests.test_procedencia_de_infraestructura_y_datos) ... ok
+test_version_y_metadatos_completos (test_fuentes.SourceTests.test_version_y_metadatos_completos) ... ok
+test_vistas_distintas_y_sin_credenciales_guardadas (test_fuentes.SourceTests.test_vistas_distintas_y_sin_credenciales_guardadas) ... ok
+test_zip_no_modifica_perfil (test_fuentes.SourceTests.test_zip_no_modifica_perfil) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.057s
+
+OK

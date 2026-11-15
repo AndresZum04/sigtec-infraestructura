@@ -1,0 +1,42 @@
+name: Verificar fuentes y construir entrega
+
+on:
+  push:
+    branches: [main, "kay/**"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  fuentes-y-paquetes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compilar fuentes Python
+        run: python -m compileall -q complemento scripts pruebas
+      - name: Verificar fuentes y contrato versionado
+        run: python -m unittest discover -s pruebas -p test_fuentes.py -v
+      - name: Construir complemento y entrega integrada
+        run: |
+          python scripts/instalar_complemento.py --solo-zip
+          python scripts/empaquetar_entrega.py
+      - name: Verificar paquete y rutas de Docker
+        run: python pruebas/test_paquete_integrado.py
+      - name: Publicar paquetes de esta ejecución
+        uses: actions/upload-artifact@v4
+        with:
+          name: SIGTEC-entrega
+          path: |
+            dist/SIGTEC_QGIS.zip
+            dist/SIGTEC_proyecto.zip
+            dist/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 30

@@ -1,0 +1,172 @@
+{
+  "verificado_en_utc": "2026-11-15T09:03:20.082844+00:00",
+  "correcto": true,
+  "problemas": [],
+  "nodos": {
+    "central": {
+      "campus_id": null,
+      "tablas": 40,
+      "vistas": 8,
+      "autenticacion": true,
+      "tiene_estilos": true,
+      "suscripciones": {
+        "sub_desde_cartago": true,
+        "sub_desde_san_jose": true,
+        "sub_desde_san_carlos": true,
+        "sub_desde_alajuela": true,
+        "sub_desde_limon": true
+      },
+      "tablas_sincronizadas": true,
+      "prepared_transactions": 20,
+      "estilos": {
+        "cantidad": 8,
+        "firma": "af21037579185ff2ec200bf7a0a53b39"
+      },
+      "conteos": {
+        "edificios": 61,
+        "carreteras": 29,
+        "aceras": 231,
+        "parqueos": 22,
+        "zonas_verdes": 1,
+        "puntos_interes": 14,
+        "iluminacion": 0,
+        "accesibilidad": 0
+      }
+    },
+    "cartago": {
+      "campus_id": 1,
+      "tablas": 40,
+      "vistas": 8,
+      "autenticacion": false,
+      "tiene_estilos": true,
+      "suscripciones": {
+        "sub_global_cartago": true,
+        "sub_sigtec_qgis_estilos": true
+      },
+      "tablas_sincronizadas": true,
+      "prepared_transactions": 20,
+      "estilos": {
+        "cantidad": 8,
+        "firma": "af21037579185ff2ec200bf7a0a53b39"
+      },
+      "conteos": {
+        "edificios": 61,
+        "carreteras": 29,
+        "aceras": 231,
+        "parqueos": 22,
+        "zonas_verdes": 1,
+        "puntos_interes": 14,
+        "iluminacion": 0,
+        "accesibilidad": 0
+      }
+    },
+    "sanjose": {
+      "campus_id": 2,
+      "tablas": 40,
+      "vistas": 8,
+      "autenticacion": false,
+      "tiene_estilos": true,
+      "suscripciones": {
+        "sub_global_san_jose": true,
+        "sub_sigtec_qgis_estilos": true
+      },
+      "tablas_sincronizadas": true,
+      "prepared_transactions": 20,
+      "estilos": {
+        "cantidad": 8,
+        "firma": "af21037579185ff2ec200bf7a0a53b39"
+      },
+      "conteos": {
+        "edificios": 61,
+        "carreteras": 29,
+        "aceras": 231,
+        "parqueos": 22,
+        "zonas_verdes": 1,
+        "puntos_interes": 14,
+        "iluminacion": 0,
+        "accesibilidad": 0
+      }
+    },
+    "sancarlos": {
+      "campus_id": 3,
+      "tablas": 40,
+      "vistas": 8,
+      "autenticacion": false,
+      "tiene_estilos": true,
+      "suscripciones": {
+        "sub_global_san_carlos": true,
+        "sub_sigtec_qgis_estilos": true
+      },
+      "tablas_sincronizadas": true,
+      "prepared_transactions": 20,
+      "estilos": {
+        "cantidad": 8,
+        "firma": "af21037579185ff2ec200bf7a0a53b39"
+      },
+      "conteos": {
+        "edificios": 61,
+        "carreteras": 29,
+        "aceras": 231,
+        "parqueos": 22,
+        "zonas_verdes": 1,
+        "puntos_interes": 14,
+        "iluminacion": 0,
+        "accesibilidad": 0
+      }
+    },
+    "alajuela": {
+      "campus_id": 4,
+      "tablas": 40,
+      "vistas": 8,
+      "autenticacion": false,
+      "tiene_estilos": true,
+      "suscripciones": {
+        "sub_global_alajuela": true,
+        "sub_sigtec_qgis_estilos": true
+      },
+      "tablas_sincronizadas": true,
+      "prepared_transactions": 20,
+      "estilos": {
+        "cantidad": 8,
+        "firma": "af21037579185ff2ec200bf7a0a53b39"
+      },
+      "conteos": {
+        "edificios": 61,
+        "carreteras": 29,
+        "aceras": 231,
+        "parqueos": 22,
+        "zonas_verdes": 1,
+        "puntos_interes": 14,
+        "iluminacion": 0,
+        "accesibilidad": 0
+      }
+    },
+    "limon": {
+      "campus_id": 5,
+      "tablas": 40,
+      "vistas": 8,
+      "autenticacion": false,
+      "tiene_estilos": true,
+      "suscripciones": {
+        "sub_global_limon": true,
+        "sub_sigtec_qgis_estilos": true
+      },
+      "tablas_sincronizadas": true,
+      "prepared_transactions": 20,
+      "estilos": {
+        "cantidad": 8,
+        "firma": "af21037579185ff2ec200bf7a0a53b39"
+      },
+      "conteos": {
+        "edificios": 61,
+        "carreteras": 29,
+        "aceras": 231,
+        "parqueos": 22,
+        "zonas_verdes": 1,
+        "puntos_interes": 14,
+        "iluminacion": 0,
+        "accesibilidad": 0
+      }
+    }
+  }
+}

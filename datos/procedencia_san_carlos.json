@@ -1,0 +1,1802 @@
+{
+  "fuente": "© OpenStreetMap contributors",
+  "licencia": "ODbL-1.0",
+  "licencia_url": "https://www.openstreetmap.org/copyright",
+  "campus_osm": "way/351554216",
+  "sha256_fuente": "4f33bc2b1471df269403021e77f8917303da70871770a494737269a8b0996d03",
+  "fecha_snapshot_osm": "2026-11-15T04:48:44Z",
+  "actualizado_en_utc": "2026-11-15T08:05:27.081860+00:00",
+  "objetos": [
+    {
+      "capa": "puntos_interes",
+      "osm": "node/1734495928",
+      "id": 3000006
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "node/1740740382",
+      "id": 3000007
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "node/5787802876",
+      "id": 3000008
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "node/5787802877",
+      "id": 3000009
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "node/6530529406",
+      "id": 3000010
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "node/6532345448",
+      "id": 3000011
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "node/6532361860",
+      "id": 3000012
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "node/9791145338",
+      "id": 3000013
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "node/9915887472",
+      "id": 3000014
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "node/9919663497",
+      "id": 3000015
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/84904996",
+      "id": 3000016
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/84905001",
+      "id": 3000017
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/84905006",
+      "id": 3000018
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/84905011",
+      "id": 3000019
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/87545803",
+      "id": 3000020
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/87545805",
+      "id": 3000021
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/87550521",
+      "id": 3000022
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/162040942",
+      "id": 3000023
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162112717",
+      "id": 3000024
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/162112718",
+      "id": 3000025
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/162112719",
+      "id": 3000026
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162112724",
+      "id": 3000027
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/162112726",
+      "id": 3000028
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/162112727",
+      "id": 3000029
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162112728",
+      "id": 3000030
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "way/162112728",
+      "id": 3000031
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/162112729",
+      "id": 3000032
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162114392",
+      "id": 3000033
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/162114393",
+      "id": 3000034
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162114394",
+      "id": 3000035
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "way/162114394",
+      "id": 3000036
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162114397",
+      "id": 3000037
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162114398",
+      "id": 3000038
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162114399",
+      "id": 3000039
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162114400",
+      "id": 3000040
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162142176",
+      "id": 3000041
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162142177",
+      "id": 3000042
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162142178",
+      "id": 3000043
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162142179",
+      "id": 3000044
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/162142180",
+      "id": 3000045
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/234332037",
+      "id": 3000046
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/234332038",
+      "id": 3000047
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/234332039",
+      "id": 3000048
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/234332041",
+      "id": 3000049
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/234332042",
+      "id": 3000050
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695387381",
+      "id": 3000051
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695387382",
+      "id": 3000052
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695387383",
+      "id": 3000053
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695387384",
+      "id": 3000054
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695387385",
+      "id": 3000055
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695500832",
+      "id": 3000056
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502887",
+      "id": 3000057
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502888",
+      "id": 3000058
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502889",
+      "id": 3000059
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502890",
+      "id": 3000060
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502891",
+      "id": 3000061
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502892",
+      "id": 3000062
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502893",
+      "id": 3000063
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502894",
+      "id": 3000064
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502895",
+      "id": 3000065
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502896",
+      "id": 3000066
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502897",
+      "id": 3000067
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502898",
+      "id": 3000068
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695502899",
+      "id": 3000069
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695504186",
+      "id": 3000070
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695506882",
+      "id": 3000071
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695506883",
+      "id": 3000072
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695506884",
+      "id": 3000073
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695506885",
+      "id": 3000074
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695506887",
+      "id": 3000075
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/695506888",
+      "id": 3000076
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695654042",
+      "id": 3000077
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "way/695654982",
+      "id": 3000078
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695655491",
+      "id": 3000079
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695655492",
+      "id": 3000080
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695655493",
+      "id": 3000081
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695655494",
+      "id": 3000082
+    },
+    {
+      "capa": "puntos_interes",
+      "osm": "way/695655494",
+      "id": 3000083
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695656239",
+      "id": 3000084
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695656240",
+      "id": 3000085
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695656241",
+      "id": 3000086
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695656242",
+      "id": 3000087
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695656243",
+      "id": 3000088
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695656244",
+      "id": 3000089
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695656245",
+      "id": 3000090
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695656431",
+      "id": 3000091
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695656432",
+      "id": 3000092
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695658910",
+      "id": 3000093
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695658914",
+      "id": 3000094
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695660669",
+      "id": 3000095
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695662170",
+      "id": 3000096
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695662171",
+      "id": 3000097
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695662175",
+      "id": 3000098
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695662178",
+      "id": 3000099
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695662179",
+      "id": 3000100
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695663118",
+      "id": 3000101
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695663122",
+      "id": 3000102
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/695663123",
+      "id": 3000103
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695736195",
+      "id": 3000104
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695736196",
+      "id": 3000105
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695736197",
+      "id": 3000106
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695736198",
+      "id": 3000107
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695736199",
+      "id": 3000108
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695736200",
+      "id": 3000109
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695736201",
+      "id": 3000110
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695736202",
+      "id": 3000111
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695736203",
+      "id": 3000112
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739090",
+      "id": 3000113
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739091",
+      "id": 3000114
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739092",
+      "id": 3000115
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739093",
+      "id": 3000116
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739094",
+      "id": 3000117
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739095",
+      "id": 3000118
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739096",
+      "id": 3000119
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739097",
+      "id": 3000120
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739098",
+      "id": 3000121
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739100",
+      "id": 3000122
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739101",
+      "id": 3000123
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739102",
+      "id": 3000124
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739103",
+      "id": 3000125
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739104",
+      "id": 3000126
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739105",
+      "id": 3000127
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739106",
+      "id": 3000128
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739107",
+      "id": 3000129
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739108",
+      "id": 3000130
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739109",
+      "id": 3000131
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739110",
+      "id": 3000132
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739111",
+      "id": 3000133
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/695739112",
+      "id": 3000134
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696183102",
+      "id": 3000135
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696183103",
+      "id": 3000136
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696183104",
+      "id": 3000137
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696183105",
+      "id": 3000138
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696183106",
+      "id": 3000139
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696183107",
+      "id": 3000140
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696183108",
+      "id": 3000141
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696183109",
+      "id": 3000142
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696183888",
+      "id": 3000143
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696185378",
+      "id": 3000144
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696185379",
+      "id": 3000145
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696185380",
+      "id": 3000146
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696185381",
+      "id": 3000147
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696185382",
+      "id": 3000148
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696185383",
+      "id": 3000149
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696185384",
+      "id": 3000150
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696185385",
+      "id": 3000151
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696185598",
+      "id": 3000152
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199323",
+      "id": 3000153
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199324",
+      "id": 3000154
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199325",
+      "id": 3000155
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199326",
+      "id": 3000156
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199327",
+      "id": 3000157
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199328",
+      "id": 3000158
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199329",
+      "id": 3000159
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199330",
+      "id": 3000160
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199331",
+      "id": 3000161
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199332",
+      "id": 3000162
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199333",
+      "id": 3000163
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199334",
+      "id": 3000164
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199335",
+      "id": 3000165
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199336",
+      "id": 3000166
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199337",
+      "id": 3000167
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199338",
+      "id": 3000168
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199339",
+      "id": 3000169
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199340",
+      "id": 3000170
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199341",
+      "id": 3000171
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199342",
+      "id": 3000172
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199343",
+      "id": 3000173
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199344",
+      "id": 3000174
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199345",
+      "id": 3000175
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199346",
+      "id": 3000176
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199347",
+      "id": 3000177
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199348",
+      "id": 3000178
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199349",
+      "id": 3000179
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199350",
+      "id": 3000180
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199351",
+      "id": 3000181
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199352",
+      "id": 3000182
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199353",
+      "id": 3000183
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199354",
+      "id": 3000184
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199355",
+      "id": 3000185
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199356",
+      "id": 3000186
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199357",
+      "id": 3000187
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199358",
+      "id": 3000188
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696199359",
+      "id": 3000189
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201213",
+      "id": 3000190
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201214",
+      "id": 3000191
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201215",
+      "id": 3000192
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201216",
+      "id": 3000193
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201217",
+      "id": 3000194
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201218",
+      "id": 3000195
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201219",
+      "id": 3000196
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201220",
+      "id": 3000197
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201221",
+      "id": 3000198
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201222",
+      "id": 3000199
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201223",
+      "id": 3000200
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201317",
+      "id": 3000201
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201318",
+      "id": 3000202
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201319",
+      "id": 3000203
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201751",
+      "id": 3000204
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201752",
+      "id": 3000205
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201753",
+      "id": 3000206
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201754",
+      "id": 3000207
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201755",
+      "id": 3000208
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201756",
+      "id": 3000209
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201945",
+      "id": 3000210
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201946",
+      "id": 3000211
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696201947",
+      "id": 3000212
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696202030",
+      "id": 3000213
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696202031",
+      "id": 3000214
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696202032",
+      "id": 3000215
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696202640",
+      "id": 3000216
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696202641",
+      "id": 3000217
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696202642",
+      "id": 3000218
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696226894",
+      "id": 3000219
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696226895",
+      "id": 3000220
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696226896",
+      "id": 3000221
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696226897",
+      "id": 3000222
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696226898",
+      "id": 3000223
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696226899",
+      "id": 3000224
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696226900",
+      "id": 3000225
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696226901",
+      "id": 3000226
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696226902",
+      "id": 3000227
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696226903",
+      "id": 3000228
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696226904",
+      "id": 3000229
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227192",
+      "id": 3000230
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227193",
+      "id": 3000231
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227194",
+      "id": 3000232
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227195",
+      "id": 3000233
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227196",
+      "id": 3000234
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227197",
+      "id": 3000235
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227198",
+      "id": 3000236
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227199",
+      "id": 3000237
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227469",
+      "id": 3000238
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227470",
+      "id": 3000239
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227471",
+      "id": 3000240
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227472",
+      "id": 3000241
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227473",
+      "id": 3000242
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227474",
+      "id": 3000243
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227475",
+      "id": 3000244
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227476",
+      "id": 3000245
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227592",
+      "id": 3000246
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696227593",
+      "id": 3000247
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696243828",
+      "id": 3000248
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696243829",
+      "id": 3000249
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696243830",
+      "id": 3000250
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696243831",
+      "id": 3000251
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696243832",
+      "id": 3000252
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696243833",
+      "id": 3000253
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696243834",
+      "id": 3000254
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696243835",
+      "id": 3000255
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696243836",
+      "id": 3000256
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696244681",
+      "id": 3000257
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696245346",
+      "id": 3000258
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696245347",
+      "id": 3000259
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696245348",
+      "id": 3000260
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696245351",
+      "id": 3000261
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696245352",
+      "id": 3000262
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696245354",
+      "id": 3000263
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696245355",
+      "id": 3000264
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696245356",
+      "id": 3000265
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696245357",
+      "id": 3000266
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696245835",
+      "id": 3000267
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696245836",
+      "id": 3000268
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696245837",
+      "id": 3000269
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696245838",
+      "id": 3000270
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696245839",
+      "id": 3000271
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696247148",
+      "id": 3000272
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696247149",
+      "id": 3000273
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696247150",
+      "id": 3000274
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696247151",
+      "id": 3000275
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696247674",
+      "id": 3000276
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696247675",
+      "id": 3000277
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696247676",
+      "id": 3000278
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696247677",
+      "id": 3000279
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696247680",
+      "id": 3000280
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696249390",
+      "id": 3000281
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696249391",
+      "id": 3000282
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696249392",
+      "id": 3000283
+    },
+    {
+      "capa": "edificios",
+      "osm": "way/696249393",
+      "id": 3000284
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249394",
+      "id": 3000285
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249395",
+      "id": 3000286
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249396",
+      "id": 3000287
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249397",
+      "id": 3000288
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249398",
+      "id": 3000289
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249399",
+      "id": 3000290
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249400",
+      "id": 3000291
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249401",
+      "id": 3000292
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249402",
+      "id": 3000293
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249403",
+      "id": 3000294
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249404",
+      "id": 3000295
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249405",
+      "id": 3000296
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249406",
+      "id": 3000297
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249407",
+      "id": 3000298
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249408",
+      "id": 3000299
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249409",
+      "id": 3000300
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249410",
+      "id": 3000301
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249411",
+      "id": 3000302
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249412",
+      "id": 3000303
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249413",
+      "id": 3000304
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249414",
+      "id": 3000305
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249415",
+      "id": 3000306
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696249416",
+      "id": 3000307
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250270",
+      "id": 3000308
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250271",
+      "id": 3000309
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250272",
+      "id": 3000310
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250273",
+      "id": 3000311
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250274",
+      "id": 3000312
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250275",
+      "id": 3000313
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250276",
+      "id": 3000314
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250277",
+      "id": 3000315
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250278",
+      "id": 3000316
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250279",
+      "id": 3000317
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250280",
+      "id": 3000318
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250281",
+      "id": 3000319
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250282",
+      "id": 3000320
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250283",
+      "id": 3000321
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250284",
+      "id": 3000322
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250285",
+      "id": 3000323
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250892",
+      "id": 3000324
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250893",
+      "id": 3000325
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250894",
+      "id": 3000326
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250895",
+      "id": 3000327
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250896",
+      "id": 3000328
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250897",
+      "id": 3000329
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250898",
+      "id": 3000330
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250899",
+      "id": 3000331
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696250900",
+      "id": 3000332
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696251081",
+      "id": 3000333
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696251082",
+      "id": 3000334
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696251083",
+      "id": 3000335
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696251429",
+      "id": 3000336
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696251430",
+      "id": 3000337
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/696251431",
+      "id": 3000338
+    },
+    {
+      "capa": "carreteras",
+      "osm": "way/696251976",
+      "id": 3000339
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252058",
+      "id": 3000340
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252059",
+      "id": 3000341
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252060",
+      "id": 3000342
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252061",
+      "id": 3000343
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252356",
+      "id": 3000344
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252357",
+      "id": 3000345
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252358",
+      "id": 3000346
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252359",
+      "id": 3000347
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252360",
+      "id": 3000348
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252361",
+      "id": 3000349
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252362",
+      "id": 3000350
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252363",
+      "id": 3000351
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696252364",
+      "id": 3000352
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696255149",
+      "id": 3000353
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696255150",
+      "id": 3000354
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696255151",
+      "id": 3000355
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696255152",
+      "id": 3000356
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696255153",
+      "id": 3000357
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696255154",
+      "id": 3000358
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696255155",
+      "id": 3000359
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/696255156",
+      "id": 3000360
+    },
+    {
+      "capa": "parqueos",
+      "osm": "way/1066234319",
+      "id": 3000361
+    },
+    {
+      "capa": "zonas_verdes",
+      "osm": "way/1066234323",
+      "id": 3000362
+    },
+    {
+      "capa": "aceras",
+      "osm": "way/1083414693",
+      "id": 3000363
+    }
+  ],
+  "nota": "Base comunitaria de trabajo, no inventario institucional. No se deducen luminarias, rampas, capacidad, disponibilidad, pisos ni condición cuando la fuente no lo indica."
+}

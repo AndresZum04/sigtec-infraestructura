@@ -1,0 +1,62 @@
+{
+  "central": {
+    "edificios": 61,
+    "carreteras": 29,
+    "aceras": 231,
+    "parqueos": 22,
+    "zonas_verdes": 1,
+    "puntos_interes": 14,
+    "iluminacion": 0,
+    "accesibilidad": 0
+  },
+  "cartago": {
+    "edificios": 61,
+    "carreteras": 29,
+    "aceras": 231,
+    "parqueos": 22,
+    "zonas_verdes": 1,
+    "puntos_interes": 14,
+    "iluminacion": 0,
+    "accesibilidad": 0
+  },
+  "sanjose": {
+    "edificios": 61,
+    "carreteras": 29,
+    "aceras": 231,
+    "parqueos": 22,
+    "zonas_verdes": 1,
+    "puntos_interes": 14,
+    "iluminacion": 0,
+    "accesibilidad": 0
+  },
+  "sancarlos": {
+    "edificios": 61,
+    "carreteras": 29,
+    "aceras": 231,
+    "parqueos": 22,
+    "zonas_verdes": 1,
+    "puntos_interes": 14,
+    "iluminacion": 0,
+    "accesibilidad": 0
+  },
+  "alajuela": {
+    "edificios": 61,
+    "carreteras": 29,
+    "aceras": 231,
+    "parqueos": 22,
+    "zonas_verdes": 1,
+    "puntos_interes": 14,
+    "iluminacion": 0,
+    "accesibilidad": 0
+  },
+  "limon": {
+    "edificios": 61,
+    "carreteras": 29,
+    "aceras": 231,
+    "parqueos": 22,
+    "zonas_verdes": 1,
+    "puntos_interes": 14,
+    "iluminacion": 0,
+    "accesibilidad": 0
+  }
+}

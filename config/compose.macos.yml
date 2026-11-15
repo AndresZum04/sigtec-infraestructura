@@ -1,0 +1,25 @@
+# Complemento local para ejecutar la imagen original en Apple Silicon.
+x-local: &local
+  platform: linux/amd64
+  volumes:
+    - ./.local/init:/docker-entrypoint-initdb.d:ro
+  healthcheck:
+    test: ["CMD", "pg_isready", "-h", "127.0.0.1", "-U", "postgres", "-d", "sigtec"]
+    interval: 3s
+    timeout: 5s
+    retries: 60
+    start_period: 10s
+
+services:
+  central:
+    <<: *local
+  cartago:
+    <<: *local
+  sanjose:
+    <<: *local
+  sancarlos:
+    <<: *local
+  alajuela:
+    <<: *local
+  limon:
+    <<: *local

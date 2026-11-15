@@ -1,0 +1,9 @@
+test_archivos_privados_y_de_ejecucion_excluidos (__main__.PackageTests.test_archivos_privados_y_de_ejecucion_excluidos) ... ok
+test_compose_extraido_resuelve_rutas_dentro_del_paquete (__main__.PackageTests.test_compose_extraido_resuelve_rutas_dentro_del_paquete) ... ok
+test_fuentes_de_andres_incluidas_y_sin_cambios (__main__.PackageTests.test_fuentes_de_andres_incluidas_y_sin_cambios) ... ok
+test_fuentes_de_kay_y_arranque_unico_incluidos (__main__.PackageTests.test_fuentes_de_kay_y_arranque_unico_incluidos) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.190s
+
+OK

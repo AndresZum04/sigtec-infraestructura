@@ -1,2 +1,16 @@
+__pycache__/
+*.pyc
+.DS_Store
+.local/
+qgis/*.qgz~
+qgis/*.qgs~
+# Estado de ejecución de PostgreSQL y respaldos locales
 wal/
 respaldos/
+.venv/
+.pytest_cache/
+*.log
+# Los artefactos se generan desde los fuentes
+dist/
+qgis/*.qgz
+docs/mapa_san_carlos.png

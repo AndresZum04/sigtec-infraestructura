@@ -1,0 +1,16 @@
+[general]
+name=SIG-TEC
+qgisMinimumVersion=3.44
+qgisMaximumVersion=3.99
+description=Autenticación central y edición geográfica distribuida por campus del TEC.
+about=Carga ocho vistas institucionales, aplica estilos compartidos y conecta al nodo del campus autenticado.
+version=1.0.0
+author=Kay Joel García Arias
+email=206625616+kayy1y@users.noreply.github.com
+category=Database
+icon=icon.svg
+experimental=False
+homepage=https://github.com/AndresZum04/sigtec-infraestructura
+repository=https://github.com/AndresZum04/sigtec-infraestructura
+tracker=https://github.com/AndresZum04/sigtec-infraestructura/issues
+hasProcessingProvider=no

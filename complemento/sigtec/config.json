@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "central": {"host": "localhost", "port": 5440, "database": "sigtec", "sslmode": "prefer"},
+  "auth_schema": "sigtec_auth",
+  "auth_function": "perfil_actual",
+  "view_schema": "sigtec_qgis",
+  "geometry_column": "geom",
+  "key_column": "id",
+  "timeout": 5,
+  "campuses": {
+    "1": {"host": "localhost", "port": 5441, "database": "sigtec", "sslmode": "prefer"},
+    "2": {"host": "localhost", "port": 5442, "database": "sigtec", "sslmode": "prefer"},
+    "3": {"host": "localhost", "port": 5443, "database": "sigtec", "sslmode": "prefer"},
+    "4": {"host": "localhost", "port": 5444, "database": "sigtec", "sslmode": "prefer"},
+    "5": {"host": "localhost", "port": 5445, "database": "sigtec", "sslmode": "prefer"}
+  },
+  "views": {"edificios": "edificios", "carreteras": "carreteras", "aceras": "aceras", "parqueos": "parqueos", "zonas_verdes": "zonas_verdes", "puntos_interes": "puntos_interes", "iluminacion": "iluminacion", "accesibilidad": "accesibilidad"}
+}

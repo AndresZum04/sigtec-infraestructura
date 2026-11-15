@@ -1,0 +1,355 @@
+{
+  "contrato": "1.0.0",
+  "correcto": true,
+  "problemas": [],
+  "nodos": {
+    "central": {
+      "edificios": {
+        "objetos": 61,
+        "ids_unicos": 61,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "carreteras": {
+        "objetos": 29,
+        "ids_unicos": 29,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "aceras": {
+        "objetos": 231,
+        "ids_unicos": 231,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "parqueos": {
+        "objetos": 22,
+        "ids_unicos": 22,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "zonas_verdes": {
+        "objetos": 1,
+        "ids_unicos": 1,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "puntos_interes": {
+        "objetos": 14,
+        "ids_unicos": 14,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "iluminacion": {
+        "objetos": 0,
+        "ids_unicos": 0,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "accesibilidad": {
+        "objetos": 0,
+        "ids_unicos": 0,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      }
+    },
+    "cartago": {
+      "edificios": {
+        "objetos": 61,
+        "ids_unicos": 61,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "carreteras": {
+        "objetos": 29,
+        "ids_unicos": 29,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "aceras": {
+        "objetos": 231,
+        "ids_unicos": 231,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "parqueos": {
+        "objetos": 22,
+        "ids_unicos": 22,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "zonas_verdes": {
+        "objetos": 1,
+        "ids_unicos": 1,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "puntos_interes": {
+        "objetos": 14,
+        "ids_unicos": 14,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "iluminacion": {
+        "objetos": 0,
+        "ids_unicos": 0,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "accesibilidad": {
+        "objetos": 0,
+        "ids_unicos": 0,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      }
+    },
+    "sanjose": {
+      "edificios": {
+        "objetos": 61,
+        "ids_unicos": 61,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "carreteras": {
+        "objetos": 29,
+        "ids_unicos": 29,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "aceras": {
+        "objetos": 231,
+        "ids_unicos": 231,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "parqueos": {
+        "objetos": 22,
+        "ids_unicos": 22,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "zonas_verdes": {
+        "objetos": 1,
+        "ids_unicos": 1,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "puntos_interes": {
+        "objetos": 14,
+        "ids_unicos": 14,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "iluminacion": {
+        "objetos": 0,
+        "ids_unicos": 0,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "accesibilidad": {
+        "objetos": 0,
+        "ids_unicos": 0,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      }
+    },
+    "sancarlos": {
+      "edificios": {
+        "objetos": 61,
+        "ids_unicos": 61,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "carreteras": {
+        "objetos": 29,
+        "ids_unicos": 29,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "aceras": {
+        "objetos": 231,
+        "ids_unicos": 231,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "parqueos": {
+        "objetos": 22,
+        "ids_unicos": 22,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "zonas_verdes": {
+        "objetos": 1,
+        "ids_unicos": 1,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "puntos_interes": {
+        "objetos": 14,
+        "ids_unicos": 14,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "iluminacion": {
+        "objetos": 0,
+        "ids_unicos": 0,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "accesibilidad": {
+        "objetos": 0,
+        "ids_unicos": 0,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      }
+    },
+    "alajuela": {
+      "edificios": {
+        "objetos": 61,
+        "ids_unicos": 61,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "carreteras": {
+        "objetos": 29,
+        "ids_unicos": 29,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "aceras": {
+        "objetos": 231,
+        "ids_unicos": 231,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "parqueos": {
+        "objetos": 22,
+        "ids_unicos": 22,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "zonas_verdes": {
+        "objetos": 1,
+        "ids_unicos": 1,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "puntos_interes": {
+        "objetos": 14,
+        "ids_unicos": 14,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "iluminacion": {
+        "objetos": 0,
+        "ids_unicos": 0,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "accesibilidad": {
+        "objetos": 0,
+        "ids_unicos": 0,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      }
+    },
+    "limon": {
+      "edificios": {
+        "objetos": 61,
+        "ids_unicos": 61,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "carreteras": {
+        "objetos": 29,
+        "ids_unicos": 29,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "aceras": {
+        "objetos": 231,
+        "ids_unicos": 231,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "parqueos": {
+        "objetos": 22,
+        "ids_unicos": 22,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "zonas_verdes": {
+        "objetos": 1,
+        "ids_unicos": 1,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "puntos_interes": {
+        "objetos": 14,
+        "ids_unicos": 14,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "iluminacion": {
+        "objetos": 0,
+        "ids_unicos": 0,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      },
+      "accesibilidad": {
+        "objetos": 0,
+        "ids_unicos": 0,
+        "geometrias_invalidas": 0,
+        "campus_invalidos": 0,
+        "ids_fuera_de_rango": 0
+      }
+    }
+  }
+}

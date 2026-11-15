@@ -1,0 +1,34 @@
+{
+  "url": "https://github.com/AndresZum04/sigtec-infraestructura.git",
+  "commit": "9a0933d33766574441b680112252fb82f29a36b7",
+  "cambios_locales": [],
+  "archivos_sha256": {
+    ".gitattributes": "06678f2ea300ffb5e91390d4e2dfdd35cb4851509847c284338ebe4ff0ff7d01",
+    ".gitignore": "be99de77ecd173c67e09a590b5208a71108277a6c2ba148bb6ede17134f8f79c",
+    "README.md": "ed71689d1adacf897e8c90346f00c8b1748c247e5e93f131da369e9be1352fb3",
+    "docker-compose.yml": "06f8f3343ac3641c5f01de772edf6e99eb9376c281be5da991792e8f70064e47",
+    "init/20_capas.sql": "77bd244a396bc4addce882ef5eb9c0c22f300d4b316a3418b755c8a698839b3c",
+    "init/30_nodo.sh": "d9b1c31aa8d51f899849b0b932c343c9e88736a2297e091f45595508b8f501b2",
+    "scripts/conteos.sh": "10161978f4cdbd1b1275040eef4a8b05a28179014bc5cfe95ed13d24b989e343",
+    "scripts/recuperar_nodo.sh": "30190d60235db62d0b6d3cabfb97436a5275f39f67a41ffaecba636fdfae0d88",
+    "scripts/replicacion.sh": "0c23f8626d4a9821bf8c6ca9689805c4ea5b529744ff55a5f2ddb20f179d8a0e",
+    "scripts/resincronizar.sh": "3dc8891787d2640bc958b0f234e0a028720da0c86871fc89ae664a08d094392f",
+    "scripts/respaldo.sh": "5782210075b748fa468dc31f430036df449f1dee3019d217e3b505d43f26ecd6",
+    "scripts/restaurar_pitr.sh": "96451cbc358ac5c9cc2a0e9c014b85bc9900743d5027258854106250cb3d8601"
+  },
+  "rutas_integradas": {
+    ".gitattributes": "docs/infraestructura_original/.gitattributes",
+    ".gitignore": "docs/infraestructura_original/.gitignore",
+    "README.md": "docs/INFRAESTRUCTURA_ANDRES.md",
+    "docker-compose.yml": "docker-compose.yml",
+    "init/20_capas.sql": "init/20_capas.sql",
+    "init/30_nodo.sh": "init/30_nodo.sh",
+    "scripts/conteos.sh": "scripts/conteos.sh",
+    "scripts/recuperar_nodo.sh": "scripts/recuperar_nodo.sh",
+    "scripts/replicacion.sh": "scripts/replicacion.sh",
+    "scripts/resincronizar.sh": "scripts/resincronizar.sh",
+    "scripts/respaldo.sh": "scripts/respaldo.sh",
+    "scripts/restaurar_pitr.sh": "scripts/restaurar_pitr.sh"
+  },
+  "estructura": "Proyecto único; infraestructura en la raíz y sin repositorios anidados."
+}

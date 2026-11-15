@@ -1,0 +1,14 @@
+{
+  "fecha": "2026-11-15",
+  "nodos_comprobados": [
+    "central",
+    "sancarlos"
+  ],
+  "verificaciones": [
+    "dump lógico incluye objetos del complemento",
+    "dump de roles incluye cuenta kay",
+    "archivo de roles con permisos 600",
+    "respaldo físico aprobado por pg_verifybackup"
+  ],
+  "restauracion_probada": false
+}
